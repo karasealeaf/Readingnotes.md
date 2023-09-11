@@ -17,3 +17,12 @@ Growth mindset is a way of viewing any challenges or setbacks, to keep yourself 
   - Being smart is something you learn, and I am **NOT** done learning!
   - No one is good when just beginning.
 
+
+# What is Markdown?
+Created in 2004 by John Gruber, Markdown is used to add formatting element to a plaintext document, it is essentially a lightweight markup language.
+
+Here is a list of some of the meanings:
+-	#Heading one
+- ##Heading two
+- ###Heading three etc.
+-	**Bold**
