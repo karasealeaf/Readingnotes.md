@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>201-Lab01</title>
+  </head>
+  <script>
+    let username = prompt("What is your name?");
+    console.log("The users name is " + username);
+
+    let userlocation = prompt("Where are you from?");
+    console.log("You are from " + userlocation);
+
+    let eyes = prompt("What colour are your eyes?");
+    console.log("Your eye colour is " + eyes);
+
+    let feel = prompt("How are you?");
+    console.log("You are " + feel);
+
+    alert(
+      "Hello there " +
+        username +
+        ", you are from " +
+        userlocation +
+        ", you have beautiful " +
+        eyes +
+        " eyes. " +
+        "and OMG, I can't believe you feel " +
+        feel +
+        "!"
+    );
+
+    console.log("This is just to check if the script is working.");
+  </script>
+  <body>
+    <header
+      style="
+        background-color: rgb(35, 254, 228);
+        font-size: 48px;
+        font-family: 'Franklin Gothic Medium';
+      "
+    >
+      <p>Class 01 Lab</p>
+    </header>
+    <main>
+      <h2
+        style="
+          background-color: rgb(240, 9, 9);
+          color: rgb(255, 255, 255);
+          text-decoration: 10px dotted red;
+        "
+      >
+        Questions
+      </h2>
+      <p
+        style="
+          background-color: black;
+          color: rgb(221, 64, 155);
+          font-size: 32px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        "
+      >
+        What is your name?
+      </p>
+      <p
+        style="
+          background-color: rgb(255, 255, 255);
+          color: rgb(164, 8, 8);
+          font-size: 26px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        "
+      >
+        Where are you from?
+      </p>
+      <p
+        style="
+          background-color: rgb(32, 8, 111);
+          color: rgb(221, 224, 58);
+          font-size: 40px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+        "
+      >
+        What colour are you eyes?
+      </p>
+      <p
+        style="
+          background-color: rgb(47, 227, 37);
+          color: rgb(0, 0, 0);
+          font-size: 40px;
+          font-family: fantasy;
+        "
+      >
+        How do you feel?
+      </p>
+    </main>
+    <footer>
+      <p
+        style="
+          background-color: rgb(238, 245, 33);
+          color: rgb(179, 22, 187);
+          font-size: 40px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          margin: 10px;
+        "
+      >
+        &copy;Tech Educators
+      </p>
+    </footer>
+  </body>
+</html>
